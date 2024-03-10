@@ -2,7 +2,7 @@ import java.util.*;
 
 public class BadWordDetecter {
 
-    static final List<String> badwords = Arrays.asList("fuck","fucker","shit","asshole"); 
+    static final List<String> badwords = Arrays.asList("you can have your own bad word","you can have your own bad word","you can have your own bad word"); 
     
     private static Data evaluate(String inp){
         String[] arr = inp.split(" ");
